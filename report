@@ -1,0 +1,61 @@
+ PROJECT REPORT
+                 RICE MILL CRM APPLICATION
+
+Project Title: 
+Rice Mill CRM Application
+Name:
+Anisha Khandelwal
+Course:
+Salesforce Real-Time Project
+Date:  
+[22-12-2024]
+
+1. Introduction
+
+The Rice Mill CRM Application is a tailored solution for managing and optimizing operations in a wholesale rice mill factory. The primary objective of this project is to develop a feature-rich and user-friendly CRM application that enhances customer experiences, improves operational efficiency, and provides detailed analytics for better decision-making.
+
+2. Objectives
+
+- To develop a CRM application specifically designed for the unique needs of a rice mill factory.
+- To streamline operations by providing daily reports on rice production, sales, and types of rice.
+- To implement Salesforce features such as roll up summary fields, cross-object formula fields, validation rules, and permission sets.
+- To create an intuitive interface for easy data interpretation by the owner.
+
+3. Features and Functionality
+
+3.1 Reporting and Dashboards
+- The application generates comprehensive reports on daily rice production, sales, total income, and customer preferences.
+- Dashboards provide visual insights, making it easy for the owner to understand key metrics and optimize resource allocation.
+
+3.2 Roll up Summary Fields
+- Roll up summary fields were used to summarize data from rice details to suppliers.
+- Functions used include COUNT, SUM, MIN, and MAX to display total values, such as the amount of rice supplied.
+
+3.3 Cross-Object Formula Fields
+- Implemented cross-object formula fields to calculate and display the total amount payable, derived from the number of rice units taken multiplied by the price per kilogram.
+
+3.4 Validation Rules
+- Validation rules were enforced to ensure data accuracy. For instance, the IsBlank formula was used to trigger error messages when required fields were left blank.
+
+3.5 Permission Sets
+- Roles were created with specific permissions to ensure that the owner has access to all records, while employers can view worker records.
+- Organizational Wide Defaults (OWD) were set to restrict access appropriately.
+
+4. Prerequisites
+
+- **Salesforce Developer Account:** A Salesforce developer account was required to access the Salesforce environment.
+- **Knowledge of Salesforce Admin Concepts:** Understanding of Salesforce objects, relationships, formula fields, and validation rules.
+- **System Requirements:** Installed two web browsers and ensured good internet connectivity.
+
+5. Learning Outcomes
+
+- Gained hands-on experience with a real-time Salesforce project.
+- Developed a strong understanding of object and relationship management in Salesforce.
+- Learned how to create and implement formula fields, cross-object formula fields, validation rules, and roll up summary fields.
+- Acquired skills in designing and generating reports and dashboards.
+
+6. Conclusion
+
+The Rice Mill CRM Application successfully addressed the specific needs of a wholesale rice mill factory, providing a comprehensive solution for managing production, sales, and customer data. The application enhanced operational efficiency and provided the owner with valuable insights through detailed reporting and dashboards. This project demonstrated the effective use of Salesforce features and reinforced the importance of CRM systems in business operations.
+
+THANK YOU...
